@@ -12,7 +12,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@500&display=swap');
 
 :root {
   --blue: #79A9F5;
@@ -594,6 +594,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
   .container {
@@ -12395,6 +12397,8 @@ p {
 }
 
 .box .box-item {
+  font-family: 'Roboto', sans-serif;
+
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -12818,6 +12822,8 @@ pre .code {
 
 .footer {
   padding: 85px 0 70px 0;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .footer .logo {
